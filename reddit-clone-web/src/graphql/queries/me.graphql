@@ -1,6 +1,5 @@
-query Me{
+query Me {
   me {
-    id
-    username
+    ...RegularUser
   }
 }
