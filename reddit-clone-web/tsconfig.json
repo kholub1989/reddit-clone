@@ -22,6 +22,6 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "../reddit-clone-server/src/migrations/1605121048197-FakePosts.ts"],
   "exclude": ["node_modules"]
 }

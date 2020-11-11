@@ -29,6 +29,8 @@ const main = async () => {
 
   await conn.runMigrations();
 
+  // await Post.delete({});
+
   const PORT = 4000;
   const app = express();
 

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { NavBar } from "../components/NavBar";
 import { withUrqlClient } from "next-urql";
 import { createUrqlClient } from "../utils/createUrqlClient";
 import { usePostsQuery } from "../generated/graphql";
@@ -7,6 +6,7 @@ import { Layout } from "../components/Layout";
 import { Box, Link, Stack, Heading, Text, Flex, Button } from "@chakra-ui/core";
 import NextLink from "next/link";
 
+// rerun
 const Index = () => {
   const [variables, setVariables] = useState({
     limit: 10,
