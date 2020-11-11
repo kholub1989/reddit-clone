@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavBar } from "../components/NavBar";
 import { withUrqlClient } from "next-urql";
 import { createUrqlClient } from "../utils/createUrqlClient";
@@ -8,10 +8,14 @@ import { Box, Link, Stack, Heading, Text, Flex, Button } from "@chakra-ui/core";
 import NextLink from "next/link";
 
 const Index = () => {
+  const [variables, setVariables] = useState({
+    limit: 10,
+    cursor: null as null | string,
+  });
+  console.log(variables);
+
   const [{ data, fetching }] = usePostsQuery({
-    variables: {
-      limit: 10,
-    },
+    variables,
   });
 
   if (!fetching && !data) {
@@ -42,7 +46,17 @@ const Index = () => {
       )}
       {data ? (
         <Flex>
-          <Button isLoading={fetching} m="auto" my={8}>
+          <Button
+            onClick={() => {
+              setVariables({
+                limit: variables.limit,
+                cursor: data.posts[data.posts.length - 1].createdAt,
+              });
+            }}
+            isLoading={fetching}
+            m="auto"
+            my={8}
+          >
             load more
           </Button>
         </Flex>
