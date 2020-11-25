@@ -23,7 +23,7 @@ const Index = () => {
     limit: 15,
     cursor: null as null | string,
   });
-  console.log(variables);
+  // console.log(variables);
 
   const [{ data, fetching }] = usePostsQuery({
     variables,
