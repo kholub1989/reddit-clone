@@ -37,4 +37,4 @@ cd reddit-clone-web && yarn dev`
 ## Screenshots:
 ![Reddit-clone main page](https://i.ibb.co/480ZV7g/Screen-Shot-2020-12-05-at-3-21-23-PM.png)
 ![Reddit-clone register page](https://i.ibb.co/KbL7hmv/Screen-Shot-2020-12-05-at-3-20-55-PM.png)
-!Reddit-clone add post page](https://i.ibb.co/X3xcC4q/Screen-Shot-2020-12-05-at-3-21-29-PM.png)
+![Reddit-clone add post page](https://i.ibb.co/X3xcC4q/Screen-Shot-2020-12-05-at-3-21-29-PM.png)
