@@ -3,8 +3,8 @@
 This is a sample Reddit clone application build for studying purposes.
 
 ## Requirements
-Node.js[GitHub Node.js](https://nodejs.org/en/)
-Redis[GitHub Redis](https://github.com/redis/redis)
+* Node.js[GitHub Node.js](https://nodejs.org/en/)
+* Redis[GitHub Redis](https://github.com/redis/redis)
 
 ## Overview
 This application is built using the following technologies:
@@ -29,12 +29,12 @@ This application is built using the following technologies:
 `yarn install`
 
 ### 3. Run the application
-`redis-server`
-`cd reddit-clone-server && yarn watch`
-`reddit-clone-server && yarn dev`
-`cd reddit-clone-web && yarn dev`
+`redis-server
+cd reddit-clone-server && yarn watch
+reddit-clone-server && yarn dev
+cd reddit-clone-web && yarn dev`
 
 ## Screenshots:
-[Reddit-clone main page](https://i.ibb.co/480ZV7g/Screen-Shot-2020-12-05-at-3-21-23-PM.png)
-[Reddit-clone register page](https://i.ibb.co/KbL7hmv/Screen-Shot-2020-12-05-at-3-20-55-PM.png)
-[Reddit-clone add post page](https://i.ibb.co/X3xcC4q/Screen-Shot-2020-12-05-at-3-21-29-PM.png)
+![Reddit-clone main page](https://i.ibb.co/480ZV7g/Screen-Shot-2020-12-05-at-3-21-23-PM.png)
+![Reddit-clone register page](https://i.ibb.co/KbL7hmv/Screen-Shot-2020-12-05-at-3-20-55-PM.png)
+!Reddit-clone add post page](https://i.ibb.co/X3xcC4q/Screen-Shot-2020-12-05-at-3-21-29-PM.png)
